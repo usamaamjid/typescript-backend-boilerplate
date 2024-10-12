@@ -1,0 +1,21 @@
+// module aliases for production, like when ts compile to js inside the dist dir
+"_moduleAliases": {
+    "@config": "dist/src/config",
+    "@constants": "dist/src/constants",
+    "@controllers": "dist/src/controllers",
+    "@models": "dist/src/models",
+    "@routes": "dist/src/routes",
+    "@types": "dist/src/types",
+    "@utils": "dist/src/utils"
+  }
+
+  // module aliases for development or local
+    "_moduleAliases": {
+    "@config": "src/config",
+    "@constants": "src/constants",
+    "@controllers": "src/controllers",
+    "@models": "src/models",
+    "@routes": "src/routes",
+    "@types": "src/types",
+    "@utils": "src/utils"
+  }

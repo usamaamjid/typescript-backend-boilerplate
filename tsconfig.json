@@ -1,0 +1,48 @@
+{
+  "compilerOptions": {
+    "target": "ES2023",
+    "module": "commonjs",
+    "rootDir": ".",
+    "outDir": "dist",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "baseUrl": ".",
+    "paths": {
+      // "@": ["src/*"],
+      "@config": [
+        "src/config"
+      ],
+      "@constants": [
+        "src/constants"
+      ],
+      "@controllers": [
+        "src/controllers"
+      ],
+      "@models": [
+        "src/models"
+      ],
+      "@routes": [
+        "src/routes"
+      ],
+      "@types": [
+        "src/types"
+      ],
+      "@utils": [
+        "src/utils"
+      ]
+    }
+  },
+  "include": [
+    "src",
+    "**/*.ts",
+    "**/*.js",
+  ],
+  "exclude": [
+    "node_modules",
+    "**/*.spec.ts",
+    "dist"
+  ]
+}
