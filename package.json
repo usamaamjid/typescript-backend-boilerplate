@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
     "lint": "eslint -c eslint.config.mjs",
-    "local": "cross-env NODE_ENV=local ts-node-dev --respawn index.ts",
+    "local": "cross-env NODE_ENV=local nodemon",
     "dev": "cross-env NODE_ENV=development ts-node-dev --respawn index.ts",
     "start": "cross-env NODE_ENV=production node dist/index.js"
   },

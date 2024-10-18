@@ -1,0 +1,6 @@
+{
+  "watch": ["src", ".env.local", ".env.development"],
+  "ext": "ts,js,json,env",
+  "exec": "ts-node index.ts",
+  "ignore": ["node_modules"]
+}
