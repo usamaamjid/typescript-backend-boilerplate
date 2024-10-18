@@ -1,7 +1,7 @@
 {
   "name": "typescript-backend-boilerplate",
   "version": "1.0.0",
-  "description": "",
+  "description": "Typescript backend boilerplate including winston logger, http logs and much more.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -11,7 +11,12 @@
     "dev": "cross-env NODE_ENV=development ts-node-dev --respawn index.ts",
     "start": "cross-env NODE_ENV=production node dist/index.js"
   },
-  "keywords": [],
+  "keywords": [
+    "typescript project",
+    "winston logger",
+    "http logs",
+    "nodejs backend logging"
+  ],
   "author": "Usama Amjid",
   "license": "ISC",
   "devDependencies": {
